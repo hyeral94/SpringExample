@@ -13,6 +13,9 @@
 <body>
 	<div class="container">
 	
+		<div>id</div>
+		<div>${result.id}</div>
+		
 		<div>이름</div>
 		<div>${result.name}</div>
 		
