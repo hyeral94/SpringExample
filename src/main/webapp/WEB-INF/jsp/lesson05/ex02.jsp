@@ -34,7 +34,7 @@
 	
 	<h1>반복문</h1>
 	<%--0~4까지 5번 반복 --%>
-	<%--var : int 'i' / begint : i = 0 / step : i++ --%>
+	<%--var : int 'i' / begin: i = 0 / step : i++ --%>
 	<c:forEach var="i" begin="0" end="4" step="1">
 		${i }
 	</c:forEach>
