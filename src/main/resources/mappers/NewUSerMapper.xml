@@ -44,6 +44,19 @@
  			`id` = #{id}	
  
  	</select>
+ 	
+ 	<select id="selectCountName" parameterType="String" resultType="int">
+ 		SELECT
+ 			count(*)
+ 		FROM
+ 			`new_user`
+ 		WHERE
+ 			`name` = #{name}
+
+ 	
+ 	
+ 	
+ 	</select>
  
  
  </mapper>

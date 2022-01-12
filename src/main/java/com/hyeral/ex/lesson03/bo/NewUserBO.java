@@ -21,4 +21,13 @@ public class NewUserBO {
 		return newUserDAO.selectUser(id);
 	}
 	
+
+	public boolean isDuplicateName(String name) {
+		int count = newUserDAO.selectCountName(name);
+		if(count == 0) {
+			return false;
+		}else {
+			return true;
+		} 
+	}
 }
